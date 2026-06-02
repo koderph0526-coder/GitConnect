@@ -1,0 +1,2 @@
+- A small, mainly HTML repository to refresh knowledge on how to connect VSC to GitHUb
+- Notes in HTML about which steps to commit and follow to connect properly.

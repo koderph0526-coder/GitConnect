@@ -7,6 +7,33 @@
     <title>GitConnect</title>
   </head>
   <body>
-    <div class="box"></div>
+    <div class="IntroBox">
+      <h1>How to connect Git Hub to VSC</h1>
+      <h4>Step 1</h4>
+      <p>
+        Open Terminal in vsc after making certain that Git is downloaded and
+        installed on the computer in question. Then switch prom Powershell to
+        Git Bash using the + with the arrow down.
+      </p>
+      <h4>Step 2 - the "tricky" part</h4>
+      <p>
+        enter the code in the terminal "$ git config --global user.name
+        exNameThatYouUseInYourGitAccount" and press enter, on the next line
+        enter "$ git config --global user.email exTheEmailUsedInGitHub" and
+        press engter again
+      </p>
+      <h4>Step 3</h4>
+      <p>
+        Then open the "Source" Tab in VSC and press "Initialize Repository",
+        followed by pressing the + plus sign on each file from the project you
+        want to upload or update from VSC, write "InitialCommit" As comment for
+        the first entry, press commit.
+      </p>
+      <h5>
+        NB! If prompted in the VSC searchbar choose witch GitAccount to send the
+        repository to, I personally default to Private upload as the repository
+        can be made public in GitHUb at a later occasion.
+      </h5>
+    </div>
   </body>
 </html>
